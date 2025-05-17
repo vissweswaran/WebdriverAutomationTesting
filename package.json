@@ -1,0 +1,23 @@
+{
+  "name": "litefury",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "author": "bharathwin",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^8.10.2"
+  },
+  "devDependencies": {
+    "@wdio/cucumber-framework": "^8.10.3",
+    "@wdio/local-runner": "^8.10.2",
+    "@wdio/spec-reporter": "^8.10.2",
+    "chromedriver": "^134.0.5",
+    "wdio-chromedriver-service": "^8.1.1"
+  }
+}
+

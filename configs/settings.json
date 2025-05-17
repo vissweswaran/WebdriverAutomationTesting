@@ -1,0 +1,7 @@
+{
+  "cucumberautocomplete.steps": [
+    "Tests/stepdefs/*.js"          // or your actual stepdefs folder pattern
+  ],
+  "cucumberautocomplete.syncfeatures": "Tests/features/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": true
+}
